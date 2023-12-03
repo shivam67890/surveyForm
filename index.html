@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="7">
+    <title>Coding Survey</title>
+    <link rel="stylesheet" href="welcomeCss.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Pixelify+Sans&family=Quicksand:wght@300&display=swap');
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Mooli&family=Open+Sans&family=Oswald:wght@300&family=Pixelify+Sans&family=Poppins:wght@100;200&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    
+
+<body>
+
+    <header>
+        
+        <!-- <div class="logo"><img src="https://th.bing.com/th/id/OIG.F_3FZWqYZd_emKUiiJN1?pid=ImgGn" alt=""></div> -->
+
+
+        <div id="hasc">
+            <nav>
+                <ul> <li><a href=""><span class="coding1">coding survey</span></a></li>
+                    <div class="navbar"><li><a href="1Homepage.html">Home</a></li>
+                    <li><a href="12AboutUs.html">About</a></li>
+                    <li><a href="14Service.html">Services</a></li>
+                    <li><a href="13Contact.html">Contact</a></li></div>
+
+                    <div class="center">
+                        
+                        <input type="checkbox" id="show">
+                        <label for="show" class="show-btn">Log in</label>
+                        <div class="container">
+                            <label for="show" class="close- btn fas fa-times" title="close"></label>
+                            <div class="text">
+                                Login Form
+                            </div>
+                            <form action="#">
+                                <div class="data">
+                                    <label>Email or Phone</label>
+                                    <input type="text" required>
+                                </div>
+                                <div class="data">
+                                    <label>Password</label>
+                                    <input type="password" required>
+                                </div>
+                                <div class="forgot-pass">
+                                    <a href="#">Forgot Password?</a>
+                                </div>
+                                <div class="btn">
+                                    <div class="inner"></div>
+                                    <button type="submit" class="butn"> <a href="survey12.html">Login</a></button>
+                                </div>
+                                <div class="signup-link">
+                                    <div id="notamember">
+                                        Not a member?
+                                    </div> <a href="#">Signup now</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <div class="wrapper">
+        <div class="static-txt">Welcome <br><span class="toour">to our</span></div>
+        <span></span>
+        <ul class="dynamic-txt">
+            <li><span>survey website</span></li>
+            <li><span>polling form</span></li>
+        </ul>
+
+
+    </div>
+    <!-- <div class="img">
+        <img src="https://images.ctfassets.net/co0pvta7hzrh/6MRcnVEF0SLXFq9caXDGoD/a4b19770b04abde086d159511b214ae9/Photo-1.png?fm=webp&q=75" alt="s">
+        
+    </div>  
+    <div class ="img2">
+        <img src="https://imgs.search.brave.com/6IQh8jfCLVhCJ93EXs8_k0wjzJ-6YU_QxvJLA9CmdlE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/cXVlc3Rpb25wcm8u/Y29tL3VzZXJpbWFn/ZXMvc2l0ZV9tZWRp/YS9TdXJ2ZXlQcm9n/cmFtbWluZy5wbmc" alt="a">
+    </div> -->
+
+
+    <div class="my1">
+        <div class="my2">Who is your survey audience?</div>
+        <div class="my3">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Employees</a>
+                    </li>
+                    <li>
+                        <a href="#">Customers</a>
+                    </li>
+                    <li>
+                        <a href="#">Target Market</a>
+                    </li>
+                    <li>
+                        <a href="#">Other</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="my123">
+        <div class="my4">
+            <img src="https://prod.smassets.net/assets/content/sm/SurveyTemplate_Hero.gif" alt="s">
+        </div>
+    
+    </div>
+    <div class="my5">
+        <img src="https://prod.smassets.net/assets/content/sm/TaT-Collect.gif" alt="" class="gif2">
+    </div>
+    <div class="logo2">
+        <img src="https://th.bing.com/th/id/OIG.cwWWYuJSzst_EVAgOX2y?pid=ImgGn" alt="" height="350px" width="350px" >
+    </div>
+<script>
+        let btn = document.querySelector(".butn");
+        btn.addEventListener("click",popUp);
+        btn.addEventListener("click",input);
+
+        function popUp(){
+            alert("You logged in succesfully");
+        }
+        function input(){
+            name = prompt("Enter your name")
+            btn.textContent = name +"logged in."
+        }
+    </script> 
+</body>
+
+</html>
